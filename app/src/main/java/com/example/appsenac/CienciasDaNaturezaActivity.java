@@ -11,4 +11,7 @@ public class CienciasDaNaturezaActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ciencias_da_natureza);
     }
+    public void imgLogo(){
+        finish();
+    }
 }
