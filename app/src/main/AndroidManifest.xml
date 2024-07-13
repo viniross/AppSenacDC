@@ -13,6 +13,27 @@
         android:theme="@style/Theme.AppSenac"
         tools:targetApi="31">
         <activity
+            android:name=".ProjetoDeVidaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProjetoProfissionalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CienciasHumanasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MatematicaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LinguagensActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TecnicoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CienciasDaNaturezaActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
