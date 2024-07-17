@@ -11,4 +11,7 @@ public class TecnicoActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tecnico);
     }
+    public void imgLogo(){
+        finish();
+    }
 }

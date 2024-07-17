@@ -11,4 +11,7 @@ public class CienciasHumanasActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ciencias_humanas);
     }
+    public void imgLogo(){
+        finish();
+    }
 }

@@ -11,4 +11,7 @@ public class ProjetoDeVidaActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_projeto_de_vida);
     }
+    public void imgLogo(){
+        finish();
+    }
 }

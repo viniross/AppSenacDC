@@ -4,6 +4,70 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#E41010"
     tools:context=".MatematicaActivity">
 
+    <ImageView
+        android:id="@+id/imageView3"
+        android:onClick="imgLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.325"
+        app:srcCompat="@drawable/willian_1" />
+
+    <TextView
+        android:id="@+id/txtMat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Matemática"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.171" />
+
+    <TextView
+        android:id="@+id/txtWillian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Willian"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.544" />
+
+    <TextView
+        android:id="@+id/txtResumoMat"
+        android:layout_width="365dp"
+        android:layout_height="234dp"
+        android:text="A disciplina de Matemática desenvolve habilidades essenciais para a compreensão e a resolução de problemas. Abrange áreas como aritmética, álgebra, geometria e estatística. A Matemática promove o raciocínio lógico, a análise crítica e a capacidade de abstração, fundamentais para diversas aplicações no cotidiano e em campos científicos e tecnológicos. Além disso, fomenta a precisão e a clareza no pensamento, contribuindo para a tomada de decisões informadas e o desenvolvimento de soluções inovadoras."
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.849" />
 </androidx.constraintlayout.widget.ConstraintLayout>

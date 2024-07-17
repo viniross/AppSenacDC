@@ -11,4 +11,7 @@ public class ProjetoProfissionalActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_projeto_profissional);
     }
+    public void imgLogo(){
+        finish();
+    }
 }

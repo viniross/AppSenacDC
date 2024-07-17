@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         btnLinguagens = findViewById(R.id.btnLinguagens);
-        btnTecnico.setOnClickListener(new View.OnClickListener() {
+        btnLinguagens.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent Linguagens = new Intent(getApplicationContext(), LinguagensActivity.class);
@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
         btnMatematica.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent Matematica = new Intent(getApplicationContext(), LinguagensActivity.class);
+                Intent Matematica = new Intent(getApplicationContext(), MatematicaActivity.class);
                 startActivity(Matematica);
             }
         });

@@ -11,4 +11,7 @@ public class MatematicaActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_matematica);
     }
+    public void imgLogo(){
+        finish();
+    }
 }

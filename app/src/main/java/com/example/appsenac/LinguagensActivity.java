@@ -11,4 +11,7 @@ public class LinguagensActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linguagens);
     }
+    public void imgLogo(){
+        finish();
+    }
 }
